@@ -97,7 +97,7 @@ char* MQTT_Logic::getTopicPublish()
 /**
  * Is this topic the same as the stored one?
  *
- * @param[in] checkstring to compare with the 
+ * @param[in] check string to compare with
  * @return true if same, false if not the same.
  */
 bool MQTT_Logic::checkTopicSubscribe(char* check)
