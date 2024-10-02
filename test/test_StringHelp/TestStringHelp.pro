@@ -1,7 +1,6 @@
 CONFIG += qtestlib debug
 TEMPLATE = app
-TARGET = 
-DEFINES += private=public
+TARGET = TestStringHelp
 
 # Test code
 DEPENDPATH += .
@@ -11,5 +10,4 @@ SOURCES += TestStringHelp.cpp
 # Code to test
 DEPENDPATH  += ../../src/
 INCLUDEPATH += ../../src/
-SOURCES += StringHelp.cpp
-
+SOURCES += ../../src/StringHelp.cpp
